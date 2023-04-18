@@ -8,7 +8,7 @@ When the program is launched in decompression mode, the input binary file will b
 ## 2. Data structures
 String type data is used to store the contents of the loaded file. Map of characters and integers stores the frequency of each character. Map of characters and strings assigns the appropriate code to each character.
 Additionally, custom data structure Node is useed to store information about the character, its frequency, its corresponding code, and pointers to the left and right node. 
-Furthermore, an adapter was created for the priority queue container to store elements of type pointer to Node in a vector container, sorting them based on the NodeComparator structure.
+Furthermore, an adapter was created for the priority queue container to store elements of type pointer to Node in a vector container, sorting them based on the ```NodeComparator``` structure.
 
 ## 3. Algorithms
 After selecting the compression option, the program reads the contents of the file, then creates a dictionary of character frequency based on the information read from the files. 
