@@ -24,6 +24,8 @@ The program begins its operation by calling the function that reads the command-
 After successfully provided information by the user, the compress or decompress function is called depending on the selected mode.
 Both of the above functions are callers to specific set of functions to perform the compression algorithm.
 
+Detailed internal specifications can be found in ```Doxygen.pdf``` file in the repository.
+
 ## 5. External specifications
 The program is launched from the command line. To run the executable file, the user needs to provide the location of the input file, output file, and dictionary, and select the mode - compression or decompression. The program is controlled by switches - i, o, s, t, which can be provided in any order. 
 If incorrect switches are provided or the program is called without arguments, a function displaying instructions for using the program will be executed.
