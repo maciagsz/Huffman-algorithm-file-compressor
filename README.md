@@ -1,7 +1,7 @@
 # Huffman algorithm file compressor
 
 ## 1. Task analysis
-Main goal of the project was to write a program for file compression using Huffmann algorithm.
+Main goal of the project was to write a program for file compression using Huffman algorithm.
 When launched in compression mode, the program will create an encrypted binary file and a character dictionary. 
 When the program is launched in decompression mode, the input binary file will be decoded using the dictionary file and saved to its original form.
 
